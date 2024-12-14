@@ -122,6 +122,40 @@ body {
 .popup-box input:focus{
     outline: none;
 }
+@media (max-width: 768px) {
+    /* Adjust popup box dimensions and positioning */
+    .popup-box {
+        width: 90%; 
+        left: 5%; 
+        top: 10%; 
+    }
+
+    /* Adjust book container dimensions */
+    .book-container {
+        width: 90%; 
+        margin: 20px auto; 
+    }
+
+    /* Adjust container layout */
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    /* Add button adjustment */
+    .add-button {
+        bottom: 20px; 
+        right: 20px; 
+        padding: 15px; 
+        font-size: 30px; 
+    }
+
+    /* Optional visibility tweaks for the overlay */
+    .popup-overlay {
+        height: 100vh; 
+    }
+}
 .popup-box textarea:focus{
     outline: none;
 }
